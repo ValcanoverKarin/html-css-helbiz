@@ -8,9 +8,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.block-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 /*HEADER*/
-header {
-    padding: 20px 0px;
+/*nav*/
+header .top-nav{
+    padding: 20px;
 }
 
 header nav {
@@ -50,4 +60,26 @@ header .burger-menu {
 .menu.lang li:last-child {
     border-right: none;
     padding-right: 0px;
+}
+
+/*jumbotron*/
+.jumbotron {
+    background-image: url(../img/hero-bg.jpg);
+    height: 520px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron .teaser {
+    width: 50%;
+}
+
+.jumbotron .teaser p {
+    font-size: 11px;
+    padding: 15px;
+}
+
+.appstore a img {
+    height: 30px;
 }
