@@ -250,7 +250,7 @@
 
 /*HIDDEN-XS*/
 
-.col-xs-hidden {
+.xs-hidden {
     display: none;
 }
 }
@@ -359,7 +359,7 @@
 
 /*HIDDEN-MD*/
 
-.col-md-hidden {
+.md-hidden {
     display: none;
 }
 }
@@ -468,7 +468,7 @@
 
 /*HIDDEN-LG*/
 
-.col-lg-hidden {
+.lg-hidden {
     display: none;
 }
 }
